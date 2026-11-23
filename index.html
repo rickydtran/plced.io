@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>plced.io</title>
+<title>PLCED.IO</title>
 <meta name="description" content="Counting down to Wednesday.">
 <meta name="color-scheme" content="light dark">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cellipse cx='50' cy='62' rx='40' ry='30' fill='%235fa83a'/%3E%3Ccircle cx='30' cy='34' r='16' fill='%235fa83a'/%3E%3Ccircle cx='70' cy='34' r='16' fill='%235fa83a'/%3E%3Ccircle cx='30' cy='34' r='9' fill='%23fff'/%3E%3Ccircle cx='70' cy='34' r='9' fill='%23fff'/%3E%3Ccircle cx='31' cy='35' r='5' fill='%23222'/%3E%3Ccircle cx='71' cy='35' r='5' fill='%23222'/%3E%3C/svg%3E">
+<link rel="icon" href="brand/plced-icon.svg" type="image/svg+xml">
+<link rel="icon" href="brand/plced-icon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="brand/plced-icon-180.png">
 <style>
   :root {
     --bg: #f4f1e8;
@@ -46,6 +48,16 @@
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     line-height: 1.4;
     overflow-x: hidden;
+  }
+  .site-header {
+    display: flex;
+    justify-content: center;
+    padding: 24px 16px 0;
+  }
+  .site-header img { display: block; height: 28px; width: auto; max-width: 100%; }
+  @media (max-width: 480px) {
+    .site-header { padding-top: 20px; }
+    .site-header img { height: 20px; }
   }
   main {
     flex: 1;
@@ -118,6 +130,14 @@
 </style>
 </head>
 <body>
+<header class="site-header">
+  <a href="/">
+    <picture>
+      <source srcset="brand/plced-wordmark-reversed.svg" media="(prefers-color-scheme: dark)">
+      <img src="brand/plced-wordmark.svg" alt="PLCED.IO" width="235" height="28">
+    </picture>
+  </a>
+</header>
 <main>
   <svg class="frog" viewBox="0 0 200 190" role="img" aria-label="A cartoon frog holding an FPGA development board">
     <g class="body">

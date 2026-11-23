@@ -1,6 +1,6 @@
 # PLCED.IO brand assets
 
-The wordmark is PLCED.IO in Michroma caps, with a green chevron standing in for the missing A so the name reads "placed".
+The wordmark is PLCED.IO in Michroma caps, with a green chevron standing in for the missing A so the name reads "placed", and a green dot.
 All SVGs are outlined vectors, so they render without any font installed.
 
 ## Files
@@ -10,7 +10,7 @@ All SVGs are outlined vectors, so they render without any font installed.
 | `plced-wordmark.svg` | Primary wordmark, for light backgrounds |
 | `plced-wordmark-reversed.svg` | Reversed wordmark, for dark backgrounds |
 | `plced-wordmark-mono-ink.svg` | One-color wordmark in Ink |
-| `plced-wordmark-mono-white.svg` | One-color wordmark in white |
+| `plced-wordmark-mono-white.svg` | One-color wordmark in Paper, for dark backgrounds |
 | `plced-wordmark-on-ink.svg` | Wordmark on an Ink background panel |
 | `plced-lockup-stacked.svg` | Stacked lockup (icon above wordmark) |
 | `plced-icon.svg` | Icon: green chevron on an Ink rounded square (favicon, avatar) |

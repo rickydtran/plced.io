@@ -2,6 +2,7 @@
 
 Static placeholder site for plced.io, served by GitHub Pages from the repository root.
 It is a single `index.html` with inline CSS and JavaScript that counts down to the next Wednesday in the visitor's local time and celebrates with a frog on Wednesday.
+Logo and icon files live in `brand/`; see [brand/README.md](brand/README.md).
 There is no build step.
 
 ## DNS records
